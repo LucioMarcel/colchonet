@@ -1,8 +1,26 @@
 pt-BR:
-  activerecord:
+  users:
+    new:
+      title: Cadastro
+    edit:
+      title: Alteração
+  rooms:
+    new:
+      title: Cadastro
+    edit:
+      title: Alteração
+  links:
+    back: Voltar
+    show: Consultar
+  activerecord :
     models:
+      room: Quarto
       user: Usuário
     attributes:
+      room:
+        description: Biografia
+        location: Localização
+        title: Título
       user:
         bio: Biografia
         email: Email
