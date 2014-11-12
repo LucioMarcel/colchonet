@@ -1,0 +1,17 @@
+pt-BR:
+  activerecord:
+    models:
+      room: Quarto
+      user: Usuário
+    attributes:
+      room:
+        description: Biografia
+        location: Localização
+        title: Título
+      user:
+        bio: Biografia
+        email: Email
+        full_name: Nome completo
+        location: Localização
+        password: Senha
+        password_confirmation: Confirme sua senha

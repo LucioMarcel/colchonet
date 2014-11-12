@@ -1,4 +1,4 @@
-class CreateFullNames < ActiveRecord::Migration
+lass CreateFullNames < ActiveRecord::Migration
   def change
     create_table :full_names do |t|
       t.string :email
