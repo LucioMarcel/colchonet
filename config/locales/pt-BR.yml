@@ -4,6 +4,11 @@ pt-BR:
       title: Cadastro
     edit:
       title: Alteração
+    show:
+      title: "Perfil: %{user_name}"
+      edit: Editar perfil
+      location: "Localização %{location}"
+      bio: "Bio: %{bio}"
   rooms:
     new:
       title: Cadastro
@@ -12,6 +17,11 @@ pt-BR:
   links:
     back: Voltar
     show: Consultar
+  layout:
+    rooms: Quartos
+    signup: Cadastro
+  general:
+    form_error: Há erros no formulário. P'or favor verifique.
   activerecord :
     models:
       room: Quarto
