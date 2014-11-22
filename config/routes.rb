@@ -8,7 +8,7 @@ Rails.application.routes.draw do
     resource :user_confirmation, :only => [:show]
   end
 
-  match '/:locale' => 'home#index', :locale => LOCALES
+  get '/:locale' => 'home#index', :locale => LOCALES
   root :to => "home#index"
 
   # The priority is based upon order of creation: first created -> highest priority.
